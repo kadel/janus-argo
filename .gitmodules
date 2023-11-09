@@ -1,0 +1,3 @@
+[submodule "janus-chart"]
+	path = janus-chart
+	url = https://github.com/janus-idp/helm-backstage.git
