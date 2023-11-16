@@ -60,7 +60,7 @@ upstream:
             user: postgres
         auth:
           keys:
-            - secret: ${BACKEND_SECRET}
+            - secret: secret
     readinessProbe:
       failureThreshold: 3
       httpGet:
